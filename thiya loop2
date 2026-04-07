@@ -1,0 +1,127 @@
+task 1
+#q=1
+'''length=int(input("enter the length"))
+breath=int(input("enter the breath"))
+if length==breath:
+    print("squre")
+else:
+    print("rectangle")'''
+#q=2
+'''a=int(input("enter the number"))
+s=a*a
+if a>50:
+    print("square above 50")
+else:
+    print("square is below or equal to 50")'''
+#q=3
+'''a=int(input("enter first  number"))
+b=int(input("enter second number"))
+r=a-b
+if r==0:
+    print("difference is 0")
+else:
+    print("not difference number 0")'''
+#q=4
+'''b=int(input("enter the mark"))
+if b>=50:
+    print("pass")
+else:
+    print("fail exam")'''
+#q=5
+'''a=int(input("enter the number"))
+if a==10:
+    print("divisible number")
+else:
+    print("not divisible number")'''
+#q=6
+'''a=int(input("enter the two digit number"))
+r=a//10
+n=a%10
+if r>n:
+    print("r is a biggest number")
+else:
+    print("n is a beggest number")'''
+#q=7
+'''a=int(input("enter the :"))
+if a==1:
+    print("you cango out play")
+else:
+    print("you cannot out palying")'''
+#q=8
+'''a=int(input("enter the number;"))
+if a==5:
+    print("exam is very easy")
+else:
+    print("exam is not easy")'''
+#Q=9
+'''a=float(input("enter the number"))
+b=float(input("enter the number"))
+op=input("enter operat0rs (+,-,*,/)")
+if op=="+":
+    print("ans:",a+b)
+elif op=="-":
+    print("ans:",a-b)
+elif op=="*":
+    print("ans;",a*b)
+elif op=="/":
+    print("ans:",a/b)
+else:
+    print("invalid number")'''
+#q=12
+"""days=int(input("enter the number"))
+if days<=5:
+    print('fine=days*0.40')
+elif days<=10:
+    print('fine=days*0.65')
+else:
+    print("others fine amount 80")"""
+#q=13
+'''a=int(input("enter the number"))
+if a%10==7 or a%10==0:
+    print("buzz number")
+else:
+    print("not buzz number")'''
+#q=14
+"""a=int(input("enter the number:75"))
+b=a*a
+if str(b).endswith(str(a)):
+    print("automorpic number")
+else:
+    print("not automorphic number")"""
+#q=15
+"""ch=input("enter the letter")
+if ch.isupper():
+    print("letter is uppercase")
+else:
+    print('NOT uppercasr')"""
+#LOOP TASK
+#q=1
+'''num=int(input("enter the number"))
+odd=0
+even=0
+for num in range (1,num+1):
+ if num%2==0:
+    even+=num
+    print("even number",even)
+ else:
+    odd+=num
+    print("odd numbers",odd)'''
+#q=2
+''''for i in range (90,64,-1):
+    print(chr(i))'''''
+
+'''for i in range(65,91):
+     print(chr(i))'''
+
+
+
+
+
+
+
+
+
+
+
+
+
