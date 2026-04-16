@@ -1,0 +1,57 @@
+import tkinter as t
+from tkinter import *
+from tkinter import messagebox
+
+a=t.Tk()
+a.geometry("1600x900")
+a.config(bg="purple")
+a.title("login page")
+l= Label (a,text="login page",fg="blue",bg="purple",font=("Arial black",35))
+l.place(x=522,y=120)
+l1= Label (a,text="user name",fg="red",bg="purple",font=("Arial black",25))
+l1.place(x=322,y=250)
+l2= Label (a,text="password",fg="red",bg="purple",font=("Arial black",25))
+l2.place(x=322,y=350)
+t= Entry (a,fg="red",bg="purple",font=("Arial black",25),width=20)
+t.place(x=622,y=250)
+t1= Entry (a,fg="red",bg="purple",font=("Arial black",25),width=20)
+t1.place(x=622,y=350)
+def demo():
+    x=t.get()
+    y=t1.get()
+    if x=="" or y=="":
+          messagebox.showwarning("warning","please enter the number.....")
+    else:
+          messagebox.showinfo("message","login success")
+
+b=Button (a,text="login",fg="red",bg="purple",font=("Arial black",25),activeforeground="green",activebackground="red",command=demo)
+t1.place(x=622,y=350))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a.mainloop()
+
+
+
+
+
